@@ -13,27 +13,29 @@ pip install -r requirements.txt
 
 4. Set the API Key as an Environment Variable
 
-- On Windows use Terminal command:
+- On Windows use the Terminal command:
 
 set OPENAI_API_KEY=your_api_key_here
 
-- On macOS or Linux, use the Terminal comand:
+- On macOS or Linux, use the Terminal command:
 
 export OPENAI_API_KEY=your_api_key_here
+
+5. To ingest a new file insert the file into the folder named 'SOURCE_DOCUMENTS' and run ingest.py file
 
 
 * Open Questions:
 
-- Q:How would you optimize the process if you had more time?
+- Q: How would you optimize the process if you had more time?
   A: 1. If I had more time I would use LangChain to streamline the process and reduce costs.
      2. I would use a history table of user prompts and LLM answers (I will detail the idea at the meeting).
 
-- Q:How would you test the prompts' performance?
-  A:I will manage a number of conversation scripts that I will create quickly with LLM (GPT).
+- Q: How would you test the prompts' performance?
+  A: I will manage a number of conversation scripts that I will create quickly with LLM (GPT).
     To reduce costs I will use shorter "camp version details" text is a shortened version of summer_camp_details parameter.
   
-- Q:What edge cases do you think are not handled currently that you would add?
-  A:User prompts that may be interpreted either as requests for information or as inquiries about registration processes.
+- Q: What edge cases do you think are not handled currently that you would add?
+  A: User prompts that may be interpreted either as requests for information or as inquiries about registration processes.
   
 
 
